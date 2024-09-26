@@ -1,0 +1,5 @@
+age = input("Enter your age: ")
+year = input("Enter the four-digit year: ")
+born = eval(year)-eval(age)
+message = "You were born in" + str(born)
+print(message)
